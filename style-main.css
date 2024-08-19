@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(204, 204, 88);
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-main {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.btn-main:hover {
+    background-color: azure;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(5, 78, 35);
+}

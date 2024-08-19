@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+}
+
+.video-body {
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content {
+    border-radius: 200px;
+    background: rgb(245, 245, 140);
+    width: 600px;
+    padding: 10px;
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.container-timer {
+    display: flex;
+}
+
+.block-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.days, .hours, .minutes, .seconds {
+    margin-left: 20px;
+    margin-right: 10px;
+    color: rgb(242, 105, 201);
+}
+
+h1, .header, p {
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgb(201, 129, 230);
+    -webkit-text-stroke: 0.8px rgba(146, 35, 220, 0.6);
+}   
+
+h1 {
+    font-size: 50px;
+}
+
+.header {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.birthday-txt {
+    font-size: 50px;
+    color: rgb(247, 59, 241);
+    -webkit-text-stroke: 0.8px rgba(220, 11, 213, 0.6);
+}
+
+.birthday-container {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.birthday-container-content {
+    width:100vh;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.btn {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: rgb(245, 245, 140);
+    color:  rgb(201, 129, 230);
+    border: 1px solid rgb(201, 129, 230);
+    margin-bottom: 5px;
+}
+
+@media all and (max-width: 800px) {
+      
+    .container-content {
+      width: 50vh;
+      margin-top: 0px;
+    }
+  
+    .days,
+    .hours,
+    .minutes,
+    .seconds {
+      margin-left: 10px;
+      margin-right: 5px;
+      font-size: 30px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  
+    .header {
+      font-size: 25px;
+    }
+  
+    p {
+      font-size: 15px;
+    }
+  
+    .birthday-txt {
+      font-size: 25px;
+    }
+  
+    .btn {
+      font-size: 17px;
+    }
+  }
+  
